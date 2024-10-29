@@ -1,0 +1,310 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "DM Sans", sans-serif;
+  text-decoration: none; /* Убирает подчеркивание у ссылок */
+}
+
+button {
+  border: none;
+  cursor: pointer; /* Меняет курсор на указатель при наведении на кнопку */
+}
+
+h1 h2 h3 h4 h5 h6 {
+  color: rgba(25, 25, 27, 1);
+}
+p {
+  color: rgba(105, 104, 113, 1);
+}
+
+.container {
+  width: 85%;
+  margin-inline: auto; /* Центрирует контейнер по горизонтали */
+}
+
+#header {
+  padding-block: 30px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between; /* Распределяет элементы с промежутками между ними */
+  align-items: center; /* Выравнивает элементы по вертикали по центру */
+}
+
+nav {
+  display: flex;
+  gap: 50px; /* Промежуток между элементами */
+}
+nav a {
+  /* настройки для ссылки*/
+  color: rgba(105, 104, 113, 1);
+  font-size: 16px;
+  font-weight: 600;
+}
+header button {
+  width: 200px; /* Ширина  */
+  height: 50px; /* Высота кнопки */
+  color: rgba(255, 255, 255, 1); /* Цвет текста на кнопке */
+  background-color: rgba(255, 113, 67, 1); /* Цвет фона кнопки */
+  border-radius: 10px; /* Скругление углов кнопки */
+  font-size: 16px; /* Размер шрифта на кнопке */
+  font-weight: 600; /* Жирность шрифта на кнопке */
+}
+.container {
+  width: 1000px; /* Фиксированная ширина контейнера */
+  margin: 0 auto; /* Центрирование контейнера */
+}
+
+#header {
+  padding-block: 30px;
+}
+
+.header {
+  display: flex; /* Flexbox для заголовка */
+  align-items: center; /* Выравнивание по вертикали по центру */
+  justify-content: space-between; /* Распределение элементов по горизонтали */
+}
+
+nav {
+  display: flex;
+  gap: 40px;
+}
+nav a {
+  color: rgba(105, 104, 113, 1);
+  font-size: 12px;
+  font-weight: 450px;
+}
+.header button {
+  width: 120px; /* Ширина кнопки */
+  height: 60px; /* Высота кнопки */
+  background: #ff7143; /* Цвет фона кнопки */
+  color: white; /* Цвет текста на кнопке */
+  border-radius: 10px; /* Скругление углов кнопки */
+  cursor: pointer; /* Указатель при наведении */
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  align-items: center; /* Выравнивание по вертикали по центру */
+  justify-content: space-between; /* Распределение элементов по горизонтали */
+}
+
+.header-nav a:hover {
+  color: black;
+  font-weight: 700;
+}
+.header button {
+  width: 120px;
+  height: 60px;
+  background: #ff7143;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  width: 450;
+  font-size: 17px;
+  cursor: pointer;
+  transition: 0.8s;
+}
+
+#hero {
+  padding: 60px 0; /* Отступы сверху и снизу для секции */
+}
+.hero {
+  display: flex; /* Flexbox для размещения элементов */
+  align-items: center; /* Выравнивание по вертикали по центру */
+  justify-content: space-between; /* Распределение элементов по горизонтали */
+}
+
+.hero-content h1 {
+  color: #19191b;
+  font-size: 80px;
+  font-weight: 700;
+
+  line-height: 77px;
+}
+.hero img {
+  width: 380px;
+  height: 380px;
+}
+.hero-content p {
+  font-size: 20px;
+  font-weight: 350;
+  line-height: 30px;
+  color: #696871;
+  margin: 30px 0;
+}
+.hero-content button {
+  width: 211px;
+  height: 60px;
+  background: #5454d4;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  width: 450;
+  font-size: 17px;
+  cursor: pointer;
+  transition: 0.8s;
+}
+
+.hero-btns {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.circle {
+  width: 45px;
+  height: 45px;
+
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #534a4a33;
+}
+.circle a {
+  color: #19191b;
+  font-size: 30px;
+}
+.hero-icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 70px 0;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main-text h1 {
+  font-size: 50px;
+  width: 450px;
+  height: 57px;
+  padding: 40px 0;
+}
+.main-text p {
+  width: 459px;
+  height: 90px;
+  color: #696871;
+}
+.main-text a {
+  font-size: 17px;
+  font-weight: 700;
+  text-align: left;
+  color: #5454d4;
+}
+#index {
+  padding: 150px 0;
+}
+
+.blocks {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 35px;
+}
+.block img {
+  width: 80px;
+}
+.block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  gap: 10px;
+}
+#block {
+  padding: 10px 0;
+}
+.block p {
+  color: #696871;
+}
+
+#plan {
+  padding: 60px;
+}
+.plan {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.plan h1 {
+  font-size: 60px;
+  font-weight: 450;
+  line-height: 70px;
+  letter-spacing: -1.875789999961853px;
+  text-align: left;
+}
+.plan-btn button {
+  width: 120px;
+  height: 55px;
+  background: #5454d4;
+  color: white;
+  border: none;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.book {
+  text-align: center;
+  transition: 0.8s;
+  padding: 20px;
+  border-radius: 10px;
+}
+.book a {
+  font-size: 16px;
+  font-weight: 280;
+  line-height: 28px;
+  letter-spacing: -0.5627369284629822px;
+  text-align: center; /* Центрирование текста */
+  color: #696871;
+}
+.book h1 {
+  font-size: 50px;
+  font-weight: 450;
+  line-height: 56px;
+  letter-spacing: -1.034482717514038px;
+  text-align: center;
+  padding: 20px;
+}
+.book p {
+  font-size: 17px;
+  font-weight: 250;
+  line-height: 50px;
+  letter-spacing: -0.5314737558364868px;
+  text-align: center;
+  color: #696871;
+  padding: 20px;
+}
+.book button {
+  background: white;
+  width: 285px;
+  height: 60px;
+  border: none;
+  border-radius: 10px;
+  font-size: 17px;
+  font-weight: 450;
+  cursor: pointer;
+  transition: 0.8s;
+  color: #5454d4;
+}
+
+.free {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #ffff;
+}
